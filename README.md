@@ -8,6 +8,12 @@ ESLint configuration for React+TypeScript projects.
 npm i --save-dev git+ssh://git@github.com:OrbitalAds/eslint-config.git
 ```
 
+or if you want to specify a version
+
+```
+npm i --save-dev git+ssh://git@github.com:OrbitalAds/eslint-config.git#<version>
+```
+
 Then create a _.eslintrc_ file on the root of your project and add:
 
 ```json
