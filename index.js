@@ -13,6 +13,7 @@ module.exports = {
     }
   },
   rules: {
+    "eol-last": ["error", "always"],
     semi: ["error", "never"],
     "object-curly-spacing": ["error", "always"],
     "react/prop-types": 0,
