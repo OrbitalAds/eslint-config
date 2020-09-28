@@ -29,6 +29,9 @@ module.exports = {
         delimiter: "comma",
         requireLast: false
       }
-    }]
+    }],
+    "quotes": [2, "single"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/jsx-curly-spacing": [2, { "when": "never", "allowMultiline": false }]
   }
 }
