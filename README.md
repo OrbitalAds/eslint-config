@@ -5,13 +5,14 @@ ESLint configuration for React+TypeScript projects.
 ## Usage
 
 ```
-npm i --save-dev git+ssh://git@github.com:OrbitalAds/eslint-config.git
+npm i --save-dev @orbitalads/eslint-config
 ```
 
-or if you want to specify a version
+Please make sure to be logged on the OA's Gemfury registry:
 
 ```
-npm i --save-dev git+ssh://git@github.com:OrbitalAds/eslint-config.git#<version>
+npm config set registry https://npm.fury.io/orbitalads/
+npm login
 ```
 
 Then create a _.eslintrc_ file on the root of your project and add:
