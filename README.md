@@ -3,16 +3,15 @@
 ESLint configuration for React+TypeScript projects.
 
 ## Usage
-
 ```
 npm i --save-dev @orbitalads/eslint-config
 ```
 
-Please make sure to be logged on the OA's Gemfury registry:
-
+Make sure to have the Gemfury registry configured on your `~.npmrc`:
 ```
-npm config set registry https://npm.fury.io/orbitalads/
-npm login
+always-auth=true
+registry=https://npm.fury.io/orbitalads/
+//npm.fury.io/orbitalads/:_authToken=GEMFURY_TOKEN
 ```
 
 Then create a _.eslintrc_ file on the root of your project and add:
