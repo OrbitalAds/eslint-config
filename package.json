@@ -4,7 +4,7 @@
   "description": "Shareable ESLint configuration for OrbitalAds",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://npm.fury.io/orbitalads/"
+    "registry": "https://npm.fury.io/orbitalin/"
   },
   "keywords": [
     "eslint",
