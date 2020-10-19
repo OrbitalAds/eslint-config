@@ -1,0 +1,12 @@
+steps:
+- name: 'node:10.22.0'
+  entrypoint: npm
+  args: [ 'set', 'registry', '"https://npm-proxy.fury.io/orbitalin/""' ]
+- name: 'node:10.22.0'
+  entrypoint: npm
+  args: [ 'set', '//npm-proxy.fury.io/orbitalin/:_authToken', '${_GEMFURY_TOKEN}' ]
+- name: 'node:10.22.0'
+  entrypoint: npm
+  args: [ 'publish' ]
+
+timeout: 900s
