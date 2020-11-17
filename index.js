@@ -17,9 +17,11 @@ module.exports = {
     semi: ["error", "never"],
     "object-curly-spacing": ["error", "always"],
     "react/prop-types": 0,
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }],
     "@typescript-eslint/no-explicit-any": "off",
     "react/no-unescaped-entities": "off",
     "template-curly-spacing": ["error", "never"],
+    "no-shadow": ["error", "never"],
     "@typescript-eslint/member-delimiter-style": ["error", {
       multiline: {
         delimiter: "none",
