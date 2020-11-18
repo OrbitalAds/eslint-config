@@ -21,7 +21,6 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "react/no-unescaped-entities": "off",
     "template-curly-spacing": ["error", "never"],
-    "no-shadow": ["error"],
     "@typescript-eslint/member-delimiter-style": ["error", {
       multiline: {
         delimiter: "none",
