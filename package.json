@@ -1,6 +1,6 @@
 {
   "name": "@orbitalads/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Shareable ESLint configuration for OrbitalAds",
   "main": "index.js",
   "publishConfig": {
