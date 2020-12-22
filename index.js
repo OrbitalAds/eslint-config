@@ -20,7 +20,7 @@ module.exports = {
     "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }],
     "@typescript-eslint/no-explicit-any": "off",
     "react/no-unescaped-entities": "off",
-    "space-after-keywords": ["error", "never"],
+    "keyword-spacing": ["error", { "before": true }],
     "template-curly-spacing": ["error", "never"],
     "@typescript-eslint/member-delimiter-style": ["error", {
       multiline: {
