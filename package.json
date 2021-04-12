@@ -1,6 +1,6 @@
 {
   "name": "@orbitalads/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Shareable ESLint configuration for OrbitalAds",
   "main": "index.js",
   "publishConfig": {
@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.31.0",
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
     "eslint-plugin-react": "^7.19.0"
   }
 }
